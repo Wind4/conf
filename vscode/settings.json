@@ -1,7 +1,9 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.snippetSuggestions": "top",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.renderIndentGuides": true,
-
-    "javascript.validate.enable": false
+    "editor.snippetSuggestions": "top",
+    "explorer.compactFolders": false,
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.startupEditor": "newUntitledFile"
 }
