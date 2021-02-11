@@ -1,8 +1,8 @@
 {
-  "+Auto Switch":{
+  "+PAC Mode":{
     "color":"#55bb55",
-    "defaultProfileName":"__ruleListOf_Auto Switch",
-    "name":"Auto Switch",
+    "defaultProfileName":"__ruleListOf_PAC Mode",
+    "name":"PAC Mode",
     "profileType":"SwitchProfile",
     "revision":"152ee21753b",
     "rules":[
@@ -11,32 +11,32 @@
           "conditionType":"HostWildcardCondition",
           "pattern":"*.google.com.*"
         },
-        "profileName":"Shadowsocks"
+        "profileName":"Global Mode"
       },
       {
         "condition":{
           "conditionType":"HostWildcardCondition",
           "pattern":"*.google*.com"
         },
-        "profileName":"Shadowsocks"
+        "profileName":"Global Mode"
       },
       {
         "condition":{
           "conditionType":"HostWildcardCondition",
           "pattern":"*.wikipedia.org"
         },
-        "profileName":"Shadowsocks"
+        "profileName":"Global Mode"
       },
       {
         "condition":{
           "conditionType":"HostWildcardCondition",
           "pattern":"*.gmail.com"
         },
-        "profileName":"Shadowsocks"
+        "profileName":"Global Mode"
       }
     ]
   },
-  "+Shadowsocks":{
+  "+Global Mode":{
     "bypassList":[
       {
         "conditionType":"BypassCondition",
@@ -61,17 +61,17 @@
       "port":1080,
       "scheme":"socks5"
     },
-    "name":"Shadowsocks",
+    "name":"Global Mode",
     "profileType":"FixedProfile",
     "revision":"14c5c313082"
   },
-  "+__ruleListOf_Auto Switch":{
+  "+__ruleListOf_PAC Mode":{
     "color":"#dd6633",
     "defaultProfileName":"direct",
     "format":"AutoProxy",
     "lastUpdate":"",
-    "matchProfileName":"Shadowsocks",
-    "name":"__ruleListOf_Auto Switch",
+    "matchProfileName":"Global Mode",
+    "name":"__ruleListOf_PAC Mode",
     "profileType":"RuleListProfile",
     "revision":"152ee21c92c",
     "ruleList":"",
