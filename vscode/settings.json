@@ -5,6 +5,7 @@
   "git.autofetch": false,
   "javascript.validate.enable": false,
   "redhat.telemetry.enabled": false,
+  "terminal.integrated.enablePersistentSessions": false,
   "workbench.editor.untitled.hint": "hidden",
   "workbench.iconTheme": "vs-minimal",
   "workbench.startupEditor": "none",
