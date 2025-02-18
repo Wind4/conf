@@ -1,12 +1,12 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.bracketPairColorization.enabled": false,
   "editor.snippetSuggestions": "top",
   "explorer.compactFolders": false,
   "git.autofetch": false,
   "javascript.validate.enable": false,
-  "redhat.telemetry.enabled": false,
   "terminal.integrated.enablePersistentSessions": false,
-  "workbench.editor.untitled.hint": "hidden",
+  "terminal.integrated.persistentSessionReviveProcess": "never",
   "workbench.iconTheme": "vs-minimal",
   "workbench.startupEditor": "none",
   "postcssSorting.config": {
